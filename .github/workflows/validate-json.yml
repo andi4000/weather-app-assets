@@ -33,9 +33,9 @@ jobs:
               schema_file="${json_file%.json}.schema.json"
 
               if [ -f "$schema_file" ]; then
-                echo "Validating $json_file"
+                echo "$json_file - found schema file, validating.."
                 check-jsonschema --schemafile "$schema_file" "$json_file"
               else
-                echo "No schema file found for $json_file, skipping validation."
+                echo "$json_file - no schema file found, skipping validation."
               fi
             done
