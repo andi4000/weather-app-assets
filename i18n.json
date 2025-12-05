@@ -1,6 +1,7 @@
 {
   "translations": {
     "current": {
+      "da": "Opdateret",
       "de": "Aktuell",
       "es": "Actual",
       "fr": "Actuel",
@@ -9,6 +10,7 @@
       "en": "Current"
     },
     "tomorrow": {
+      "da": "I morgen",
       "de": "Morgen",
       "es": "Mañana",
       "fr": "Demain",
@@ -17,6 +19,7 @@
       "en": "Tomorrow"
     },
     "today": {
+      "da": "I dag",
       "de": "Heute",
       "es": "Hoy",
       "fr": "Aujourd'hui",
@@ -25,6 +28,7 @@
       "en": "Today"
     },
     "monday": {
+      "da": "Mandag",
       "de": "Montag",
       "es": "Lunes",
       "fr": "Lundi",
@@ -33,6 +37,7 @@
       "en": "Monday"
     },
     "tuesday": {
+      "da": "Tirsdag",
       "de": "Dienstag",
       "es": "Martes",
       "fr": "Mardi",
@@ -41,6 +46,7 @@
       "en": "Tuesday"
     },
     "wednesday": {
+      "da": "Onsdag",
       "de": "Mittwoch",
       "es": "Miércoles",
       "fr": "Mercredi",
@@ -49,6 +55,7 @@
       "en": "Wednesday"
     },
     "thursday": {
+      "da": "Torsdag",
       "de": "Donnerstag",
       "es": "Jueves",
       "fr": "Jeudi",
@@ -57,6 +64,7 @@
       "en": "Thursday"
     },
     "friday": {
+      "da": "Fredag",
       "de": "Freitag",
       "es": "Viernes",
       "fr": "Vendredi",
@@ -65,6 +73,7 @@
       "en": "Friday"
     },
     "saturday": {
+      "da": "Lørdag",
       "de": "Samstag",
       "es": "Sábado",
       "fr": "Samedi",
@@ -73,6 +82,7 @@
       "en": "Saturday"
     },
     "sunday": {
+      "da": "Søndag",
       "de": "Sonntag",
       "es": "Domingo",
       "fr": "Dimanche",
