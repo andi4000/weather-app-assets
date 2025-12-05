@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Open-Meteo Weather Descriptions",
+  "description": "Schema for Open-Meteo WMO condition codes and their descriptions in multiple languages",
+  "type": "object",
+  "required": ["description", "data"],
+  "properties": {
+    "description": {
+      "type": "string",
+      "description": "A description of the data structure"
+    },
+    "data": {
+      "type": "object",
+      "description": "Collection of weather condition codes with their multilingual descriptions",
+      "patternProperties": {
+        "^(0d|1d|[0-9]+)$": {
+          "type": "object",
+          "required": ["description"],
+          "properties": {
+            "description": {
+              "type": "object",
+              "description": "Translations of the weather condition description",
+              "required": ["en"],
+              "additionalProperties": {
+                "type": "string",
+                "description": "Translation in any language (use ISO 639-1 language codes)"
+              }
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
