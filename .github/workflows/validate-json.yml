@@ -1,0 +1,41 @@
+name: Validate JSON Schema
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install check-jsonschema
+        run: pip install check-jsonschema
+
+      - name: Validate JSON files against schemas
+        run: |
+          find . -name "*.json" \
+            -not -name "*.schema.json" \
+            -not -path "./node_modules/*" \
+            -not -path "./.git/*" \
+            -not -path "./venv/*" \
+          | while read -r json_file; do
+              schema_file="${json_file%.json}.schema.json"
+
+              if [ -f "$schema_file" ]; then
+                echo "Validating $json_file"
+                check-jsonschema --schemafile "$schema_file" "$json_file"
+              else
+                echo "No schema file found for $json_file, skipping validation."
+              fi
+            done
