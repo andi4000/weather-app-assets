@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "i18n Translations",
+  "description": "Schema for internationalization translations",
+  "type": "object",
+  "required": ["translations"],
+  "properties": {
+    "translations": {
+      "type": "object",
+      "description": "Collection of translation keys with multilingual values",
+      "additionalProperties": {
+        "type": "object",
+        "description": "Translations for a specific key",
+        "required": ["en"],
+        "additionalProperties": {
+          "type": "string",
+          "description": "Translation in any language (use ISO 639-1 language codes)"
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}
