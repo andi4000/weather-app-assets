@@ -7,6 +7,7 @@
       "fr": "Actuel",
       "it": "Attuale",
       "nl": "Actueel",
+      "sk": "Aktuálne",
       "en": "Current"
     },
     "tomorrow": {
@@ -16,6 +17,7 @@
       "fr": "Demain",
       "it": "Domani",
       "nl": "Morgen",
+      "sk": "Zajtra",
       "en": "Tomorrow"
     },
     "today": {
@@ -25,6 +27,7 @@
       "fr": "Aujourd'hui",
       "it": "Oggi",
       "nl": "Vandaag",
+      "sk": "Dnes",
       "en": "Today"
     },
     "monday": {
@@ -34,6 +37,7 @@
       "fr": "Lundi",
       "it": "Lunedì",
       "nl": "Maandag",
+      "sk": "Pondelok",
       "en": "Monday"
     },
     "tuesday": {
@@ -43,6 +47,7 @@
       "fr": "Mardi",
       "it": "Martedì",
       "nl": "Dinsdag",
+      "sk": "Utorok",
       "en": "Tuesday"
     },
     "wednesday": {
@@ -52,6 +57,7 @@
       "fr": "Mercredi",
       "it": "Mercoledì",
       "nl": "Woensdag",
+      "sk": "Streda",
       "en": "Wednesday"
     },
     "thursday": {
@@ -61,6 +67,7 @@
       "fr": "Jeudi",
       "it": "Giovedì",
       "nl": "Donderdag",
+      "sk": "Štvrtok",
       "en": "Thursday"
     },
     "friday": {
@@ -70,6 +77,7 @@
       "fr": "Vendredi",
       "it": "Venerdì",
       "nl": "Vrijdag",
+      "sk": "Piatok",
       "en": "Friday"
     },
     "saturday": {
@@ -79,6 +87,7 @@
       "fr": "Samedi",
       "it": "Sabato",
       "nl": "Zaterdag",
+      "sk": "Sobota",
       "en": "Saturday"
     },
     "sunday": {
@@ -88,6 +97,7 @@
       "fr": "Dimanche",
       "it": "Domenica",
       "nl": "Zondag",
+      "sk": "Nedeľa",
       "en": "Sunday"
     }
   }
